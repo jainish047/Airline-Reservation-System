@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <style src="Login.css"></style> -->
+    <link rel="stylesheet" href="Login.css">
+    <script src="/Airline-Reservation-System/Login/script.js" async defer></script>
+</head>
+
+<body>
+    <div id="Box">
+        <h1>Login</h1>
+        <button type="button">
+            <img src="/Airline-Reservation-System/Login/assets/googleLogo.png" alt="google Logo"><span> Login with
+                Google</span>
+        </button>
+        <p id="divider">Login with Email</p>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" class="input">
+        <label for="password">password:</label>
+        <input type="password" name="password" id="password" class="input">
+        <div id="subpassword">
+            <a href="forgotPW">Forgot Password</a>
+            <div>
+                <input type="checkbox" id="showPW" onclick="toggleVisibility()">
+                <label for="showPW">Show Password</label>
+            </div>
+        </div>
+        <button id="loginBtn" type="submit">Login</button>
+        <button id="signinBtn" type="submit">Signin</button>
+    </div>
+</body>
+
+</html>
